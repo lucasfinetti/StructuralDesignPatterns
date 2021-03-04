@@ -2,7 +2,7 @@
 
 namespace StructuralDesignPatterns.Decorator.Domain
 {
-    public class Civic : ICar
+    public sealed class Civic : ICar
     {
         public string Name
         {

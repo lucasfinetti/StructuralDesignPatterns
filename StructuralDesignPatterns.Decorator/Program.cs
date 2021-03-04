@@ -20,8 +20,8 @@ namespace StructuralDesignPatterns.Decorator
             civiWithAirfoilAndInsufilm.InsulfilmName = "G5";
             civiWithAirfoilAndInsufilm.InsulfilmPrice = 499.00f;
 
-            Console.Write($"{civiWithAirfoilAndInsufilm.Name} with Airfoil and Insufilme, ");
-            Console.Write($"price: ${ civiWithAirfoilAndInsufilm.Price}");
+            Console.Write($"{civiWithAirfoilAndInsufilm.Name} with Airfoil ({civiWithAirfoil.AirfoilName}) " +
+                $"and Insufilme ({civiWithAirfoilAndInsufilm.InsulfilmName}), price: ${ civiWithAirfoilAndInsufilm.Price}");
 
             Console.ReadKey();
         }

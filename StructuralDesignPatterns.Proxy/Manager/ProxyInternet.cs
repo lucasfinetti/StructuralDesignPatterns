@@ -11,6 +11,8 @@ namespace StructuralDesignPatterns.Proxy.Manager
 
         public ProxyInternet()
         {
+            Console.WriteLine("ProxyClient: Initialized");
+
             BannedSites = new List<string>();
             BannedSites.Add("abc.com");
             BannedSites.Add("def.com");
